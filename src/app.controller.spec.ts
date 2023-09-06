@@ -10,6 +10,7 @@ describe('AppController', () => {
       controllers: [AppController],
       providers: [AppService],
     }).compile();
+    console.log('arsenal vo dich')
 
     appController = app.get<AppController>(AppController);
   });
